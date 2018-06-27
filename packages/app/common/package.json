@@ -1,6 +1,6 @@
 {
    "name": "@opchg/app.browser",
-   "version": "0.0.1",
+   "version": "0.0.2",
    "description": "",
    "main": "index.js",
    "scripts": {
@@ -24,9 +24,9 @@
       "ts-loader": "^4.4.1"
    },
    "devDependencies": {
-      "@types/webpack-env": "^1.13.6",
       "@solid-bricks/di-container": "0.0.16",
       "@solid-bricks/history-change-detector": "0.0.18",
+      "@types/webpack-env": "^1.13.6",
       "babel-core": "^6.26.3",
       "babel-loader": "^7.1.4",
       "babel-plugin-jsx-bemclasses": "git+https://github.com/Silvestr-b/jsx-bemclasses.git",
@@ -34,13 +34,13 @@
       "babel-preset-react": "^6.24.1",
       "css-loader": "^0.28.11",
       "extract-text-webpack-plugin": "^3.0.2",
-      "uglifyjs-webpack-plugin": "^1.2.7",
       "file-loader": "^1.1.11",
       "postcss-loader": "^2.1.5",
       "postcss-nested": "^3.0.0",
       "source-map-loader": "^0.2.3",
       "style-loader": "^0.21.0",
       "typescript": "^2.9.2",
+      "uglifyjs-webpack-plugin": "^1.2.7",
       "webpack": "^4.12.1",
       "webpack-cli": "^3.0.8"
    }

@@ -1,0 +1,8 @@
+
+
+interface ITeasersLoader {
+
+}
+
+
+export { ITeasersLoader }

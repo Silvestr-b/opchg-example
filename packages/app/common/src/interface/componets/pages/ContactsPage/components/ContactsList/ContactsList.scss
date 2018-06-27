@@ -1,0 +1,44 @@
+
+
+.contacts-list {
+   &__item {
+      display: flex;
+      margin-bottom: 16px;
+   }
+   
+   &__item-text {
+      margin-left: 8px;
+      font-family: Roboto, Helvetica, Arial, sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 20px;
+      color: #333;
+   }
+   
+   &__item-icon {
+      width: 24px;
+      height: 24px;
+      min-width: 24px;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      opacity: 0.5;
+   }
+   
+   &__item-icon.contacts-list__item-icon_type_address {
+      background-image: url('./icons/ic_location_on_black_24dp_2x.png');
+   }
+   
+   &__item-icon.contacts-list__item-icon_type_phone {
+      background-image: url('./icons/ic_phone_black_24dp_2x.png');
+   }
+   
+   &__item-icon.contacts-list__item-icon_type_email {
+      background-image: url('./icons/ic_email_black_24dp_2x.png');
+   }
+
+   &__item-icon.contacts-list__item-icon_type_facebook {
+      background-image: url('./icons/facebook-box_black_24_2x.png');
+   }
+}
+

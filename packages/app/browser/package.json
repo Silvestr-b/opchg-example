@@ -1,0 +1,16 @@
+{
+   "name": "@opchg/app.client",
+   "version": "0.0.1",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "build": "tsc",
+      "watch": "tsc -w",
+      "clear": "rm -rf ./lib"
+   },
+   "author": "Silvestr Baibuz",
+   "license": "ISC",
+   "dependencies": {
+      "@opchg/app.common": "^0.0.1"
+   }
+}

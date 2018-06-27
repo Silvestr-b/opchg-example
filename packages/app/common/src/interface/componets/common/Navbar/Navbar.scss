@@ -1,0 +1,64 @@
+
+
+.navbar {
+   width: 100%;
+   background-color: #474f6f;
+
+   &__container {
+      display: flex;
+      justify-content: space-between;
+      align-items: stretch;
+      flex-wrap: wrap;
+   }
+
+   &__logo {
+      height: 64px;
+   }
+
+   &__menu {
+      margin-right: -16px;
+   }
+
+   &__expand-menu-button {
+      background: none;
+      border: none;
+      box-shadow: none;
+      outline: none;
+      padding: 8px;
+      align-self: center;
+   }
+
+   &__expand-menu-button-icon {
+      background-image: url("./icons/ic_menu_white_24dp_2x.png");
+      background-size: contain;
+      background-position: center center;
+      background-repeat: no-repeat;
+      width: 24px;
+      height: 24px;
+   }
+
+   &__expand-menu-button:hover {
+      opacity: 0.8;
+      cursor: pointer;
+   }
+}
+
+@media screen and (max-width: 650px) {
+   .navbar {
+      &__menu {       
+         display: block;
+         width: 100%;
+      }
+      &__menu_hidden-on-small {
+         display: none !important;
+      }
+   }
+}
+
+@media screen and (min-width: 651px) {
+   .navbar {
+      &__expand-menu-button {
+         display: none !important;
+      }
+   }
+}

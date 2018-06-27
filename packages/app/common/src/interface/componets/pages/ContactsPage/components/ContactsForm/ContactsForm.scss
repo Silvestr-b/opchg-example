@@ -1,0 +1,91 @@
+
+
+.contacts-form {
+   box-sizing: border-box;
+
+   &__input-group {
+      box-sizing: border-box;
+      margin-bottom: 16px;
+   }
+
+   &__input-label {
+      box-sizing: border-box;
+      display: block;
+      font-family: Roboto, Helvetica, Arial, sans-serif;
+      font-size: 13px;
+      color: #666;
+      margin-bottom: 8px;
+   }
+   
+   &__required-label {
+      font-family: Roboto, Helvetica, Arial, sans-serif;
+      font-size: 13px;
+      color: red;
+   }
+
+   &__input {
+      box-sizing: border-box;
+      display: block;
+      width: 100%;
+      padding: 0px 8px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      box-shadow: none;
+      line-height: 32px;
+      font-family: Roboto, Helvetica, Arial, sans-serif;
+      font-size: 15px;
+      color: #333;
+   }
+
+   &__input:active {
+      box-shadow: none;
+      outline: none;
+   }
+
+   &__input:focus {
+      box-shadow: 0px 0px 0px 1px #999;
+      outline: none;
+   }
+
+   &__input::placeholder {
+      opacity: 1;
+      font-family: Roboto, Helvetica, Arial, sans-serif;
+      font-size: 15px;
+      font-weight: 100;
+      color: #999;
+   }
+
+   &__input.contacts-form__input_type_message {
+      min-height: 100px;
+      max-width: 100%;
+   }
+
+   &__submit-button {
+      box-shadow: none;
+      margin-top: 16px;
+      border: none;
+      border-radius: 3px;
+      padding: 8px 16px;
+      background-color: #474f6f;
+      font-family: Roboto, Helvetica, Arial, sans-serif;
+      font-size: 13px;
+      font-weight: 400;
+      letter-spacing: 0.5px;
+      color: #fff;
+   }
+
+   &__submit-button:focus {
+      box-shadow: none;
+      outline: none;
+      background-color: #424965;
+   }
+
+   &__submit-button:hover {
+      cursor: pointer;
+      background-color: #3e455f;
+      box-shadow: none;
+      outline: none;
+   }
+
+   
+}

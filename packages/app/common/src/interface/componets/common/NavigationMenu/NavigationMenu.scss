@@ -1,0 +1,36 @@
+
+
+.navigation-menu {
+   display: flex;
+   justify-content: space-between;
+   align-items: stretch;
+
+   &__item {
+      padding: 0px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 16px;
+      padding-bottom: 16px;
+
+      font-family: Roboto, Helvetica, Arial, sans-serif;
+      font-size: 13px;
+      font-weight: 400;
+      letter-spacing: 0.6px;
+      text-transform: uppercase;
+      text-align: center;
+      text-decoration: none;
+
+      color: #fff;
+      
+   }
+
+   &__item.active {
+      background-color: #424965;
+   }
+
+   &__item:hover,
+   &__item.active:hover {
+      background-color: #3e455f;
+   }
+}

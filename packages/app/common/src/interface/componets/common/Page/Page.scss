@@ -1,0 +1,18 @@
+
+
+.page {
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+
+   &__navbar {
+      position: fixed;
+      z-index: 2;
+   }
+
+   &__main {
+      flex: 1;
+      background-color: #fdfdfd;
+      margin-top: 60px;
+   }
+}
